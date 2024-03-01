@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.containerhiro {
+    height: 100vh;
+    background: linear-gradient(rgb(12, 12, 54), rgb(1, 1, 1))
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-left: 40px;
+}
+
+.logo h2 {
+    color: aliceblue;
+}
+
+.navbar {
+   display: flex;
+   margin-top: 27px;
+   margin-right: 30px;
+   padding-right: 4px;
+   /* border-right: solid 1px gray; */
+}
+
+.navbar > ul {
+    display: flex;
+    list-style-type: none;
+    color: aliceblue;
+    font-weight: 600;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    transition: all .3s;
+}
+
+.navbar ul li a:hover {
+    color: rgb(49, 163, 201);
+}
+
+.hiro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12vw;
+    text-align: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.hiro h1 {
+    color: aliceblue;
+    font-size: 50px;
+    max-width: 1000px;
+}
+
+.hiro p {
+    color: gray;
+    font-size: 20px;
+    max-width: 800px;
+}
+
+.search {
+    display: flex;
+    gap: 25px;
+}
+
+.start-btn {
+    background-color: #2bbcfa;
+    padding: 15px 25px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 800;
+    transition: all .2s;
+}
+
+.start-btn:hover {
+    background-color: #52c0f0;
+}
+
+.quicksearch {
+    background-color: rgb(54, 53, 53);
+    padding: 15px 150px;
+    border-radius: 8px;
+    color: white;
+}
