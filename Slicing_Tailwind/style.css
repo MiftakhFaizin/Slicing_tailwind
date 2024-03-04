@@ -89,7 +89,14 @@
 
 .quicksearch {
     background-color: rgb(54, 53, 53);
+    border: none;
     padding: 15px 150px;
+    text-align: center;
     border-radius: 8px;
     color: white;
+    outline: none;
+}
+
+.quicksearch:focus {
+    border: 2px solid gray;   
 }
